@@ -6,7 +6,7 @@
 
 :root {
     --primary-color: #75cece; /* Cor primária (azul ciano vibrante) */
-    --secondary-color: lab(7.31% -3.34 -7.61); /* Cor secundária (branco) */
+    --secondary-color: #0a0a0a; /* Cor secundária (branco) */
     --tertiary-color: #f0f2f3; /* Cor terciária (cinza para placeholders/bordas) */
     --bg-color: #241191; /* Cor de fundo (azul escuro) */
 }
@@ -92,6 +92,32 @@ div input:focus {
 
 #botao-busca:active {
     transform: scale(0.98); /* Efeito de clique (diminui o tamanho) */
+}
+
+.filter-menu {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    padding: 1rem;
+    background-color: rgba(36, 17, 145, 0.8); /* Fundo semi-transparente */
+}
+
+.filter-btn {
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+    background-color: transparent;
+    color: var(--primary-color);
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 0.9rem;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.filter-btn:hover {
+    background-color: var(--primary-color);
+    color: var(--bg-color);
 }
 
 main {

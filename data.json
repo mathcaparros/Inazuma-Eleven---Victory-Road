@@ -10,5 +10,280 @@
         "subtitulo": "Reviva todas as partidas na história de Inazuma Eleven",
         "descricao": "Uma jornada em busca do time mais forte da história de Inazuma Eleven.\n\nJunte-se a Victorio, o menino que veio do futuro, para reviver as partidas da série.",
         "link": "https://www.inazuma.jp/victory-road/pt-br/chronicle/"
-    }
+    },
+    {
+    "nome": "Kaito Shirogane",
+    "posicao": "Meio-campista",
+    "elemento": "Vento",
+    "time": "Águias da Neve",
+    "hissatsu_notaveis": [
+      "Tornado Branco",
+      "Dança do Ciclone"
+    ],
+    "descricao": "Um jogador rápido, conhecido por sua precisão nos passes e controle de área em condições climáticas adversas."
+  },
+  {
+    "nome": "Rina Hoshizora",
+    "posicao": "Atacante",
+    "elemento": "Luz",
+    "time": "Estrelas Cadentes",
+    "hissatsu_notaveis": [
+      "Meteoro Brilhante",
+      "Flecha Sagrada"
+    ],
+    "descricao": "Sua velocidade e chute forte a tornam uma ameaçante atacante. Possui uma aura divina que inspira seus companheiros."
+  },
+  {
+    "nome": "Kenji Dousa",
+    "posicao": "Zagueiro",
+    "elemento": "Terra",
+    "time": "Muralha de Aço",
+    "hissatsu_notaveis": [
+      "Rocha Inabalável",
+      "Barreira Tectônica"
+    ],
+    "descricao": "Um defensor estoico e quase impossível de ultrapassar, especializado em técnicas de defesa baseadas em solo."
+  },
+  {
+    "nome": "Haruki Gekkou",
+    "posicao": "Goleiro",
+    "elemento": "Sombra",
+    "time": "Crepúsculo Fantasma",
+    "hissatsu_notaveis": [
+      "Mão Demoníaca Invertida",
+      "Eclipse Total"
+    ],
+    "descricao": "Um goleiro sombrio com reflexos excepcionais. Suas defesas muitas vezes confundem os adversários."
+  },
+  {
+    "nome": "Tsubasa Enshin",
+    "posicao": "Atacante",
+    "elemento": "Fogo",
+    "time": "Dragões Flama",
+    "hissatsu_notaveis": [
+      "Explosão de Vulcão",
+      "Chute Espiral Ardente"
+    ],
+    "descricao": "Famoso por sua força bruta e chutes que parecem incendiar a bola. Capitão de seu time."
+  },
+  {
+    "nome": "Sora Amagi",
+    "posicao": "Meio-campista",
+    "elemento": "Vento",
+    "time": "Céus Azuis",
+    "hissatsu_notaveis": [
+      "Vôo do Falcão",
+      "Ciclone Hipnótico"
+    ],
+    "descricao": "Mestre em controlar o ritmo do jogo, usando o vento para desorientar a defesa inimiga."
+  },
+  {
+    "nome": "Daiki Kyoudai",
+    "posicao": "Zagueiro",
+    "elemento": "Terra",
+    "time": "Gigantes da Montanha",
+    "hissatsu_notaveis": [
+      "Pés de Colosso",
+      "Muro de Ferro"
+    ],
+    "descricao": "Sua presença física intimida, e ele usa a massa da terra para criar barreiras defensivas impenetráveis."
+  },
+  {
+    "nome": "Mitsuki Akatsuki",
+    "posicao": "Atacante",
+    "elemento": "Luz",
+    "time": "Aurora Dourada",
+    "hissatsu_notaveis": [
+      "Raios do Amanhecer",
+      "Chute Solar"
+    ],
+    "descricao": "Um atacante versátil que brilha nos momentos decisivos, utilizando a energia da luz solar."
+  },
+  {
+    "nome": "Shinobu Kageyama",
+    "posicao": "Zagueiro",
+    "elemento": "Sombra",
+    "time": "Ninjas Ocultos",
+    "hissatsu_notaveis": [
+      "Técnica da Substituição",
+      "Prisão das Sombras"
+    ],
+    "descricao": "Defensor furtivo que usa ilusões e velocidade para roubar a bola sem ser notado."
+  },
+  {
+    "nome": "Renji Kouya",
+    "posicao": "Meio-campista",
+    "elemento": "Fogo",
+    "time": "Deserto Ardente",
+    "hissatsu_notaveis": [
+      "Mirage Flamejante",
+      "Calor Extremo"
+    ],
+    "descricao": "Jogador de resistência notável, consegue manter o ritmo elevado mesmo sob pressão intensa."
+  },
+  {
+    "nome": "Aoi Mizuki",
+    "posicao": "Goleiro",
+    "elemento": "Água",
+    "time": "Mares Profundos",
+    "hissatsu_notaveis": [
+      "Mão de Poseidon",
+      "Onda Esmagadora"
+    ],
+    "descricao": "Um dos goleiros mais calmos, sua técnica defensiva é baseada no fluxo e na imprevisibilidade da água."
+  },
+  {
+    "nome": "Taiga Rokkaku",
+    "posicao": "Atacante",
+    "elemento": "Terra",
+    "time": "Búfalos Selvagens",
+    "hissatsu_notaveis": [
+      "Chifre Perfurante",
+      "Stampede"
+    ],
+    "descricao": "Atacante focado em penetração e força, quebrando as defesas adversárias através da investida direta."
+  },
+  {
+    "nome": "Yuki Murasaki",
+    "posicao": "Meio-campista",
+    "elemento": "Gelo",
+    "time": "Ventos Congelados",
+    "hissatsu_notaveis": [
+      "Nevasca Infinita",
+      "Geada Absoluta"
+    ],
+    "descricao": "Especialista em controle de campo, congelando a movimentação dos adversários com suas técnicas de gelo."
+  },
+  {
+    "nome": "Akira Kirisame",
+    "posicao": "Zagueiro",
+    "elemento": "Água",
+    "time": "Chuva Silenciosa",
+    "hissatsu_notaveis": [
+      "Névoa Envolvente",
+      "Círculo de Água"
+    ],
+    "descricao": "Defensor que usa a água para criar zonas de difícil visibilidade, dificultando a coordenação do ataque."
+  },
+  {
+    "nome": "Kenta Raiden",
+    "posicao": "Atacante",
+    "elemento": "Eletricidade",
+    "time": "Trovões Rápidos",
+    "hissatsu_notaveis": [
+      "Lâmina de Choque",
+      "Relâmpago em Cadeia"
+    ],
+    "descricao": "Conhecido por seus chutes incrivelmente rápidos e trajetória errática devido ao uso de eletricidade."
+  },
+  {
+    "nome": "Yumi Kanade",
+    "posicao": "Meio-campista",
+    "elemento": "Vento",
+    "time": "Música Eólica",
+    "hissatsu_notaveis": [
+      "Canção do Ar",
+      "Melodia do Furacão"
+    ],
+    "descricao": "Usa o fluxo do vento para orquestrar o jogo, movendo a bola com elegância e precisão musical."
+  },
+  {
+    "nome": "Goro Tetsuzan",
+    "posicao": "Goleiro",
+    "elemento": "Terra",
+    "time": "Montanhas Rochosas",
+    "hissatsu_notaveis": [
+      "Escudo de Basalto",
+      "Defesa de Minério"
+    ],
+    "descricao": "Um goleiro robusto, que confia em sua resistência física e defesas que solidificam o campo à sua frente."
+  },
+  {
+    "nome": "Hikaru Taiyo",
+    "posicao": "Atacante",
+    "elemento": "Luz",
+    "time": "Sol Nascente",
+    "hissatsu_notaveis": [
+      "Chute do Pôr do Sol",
+      "Esfera de Plasma"
+    ],
+    "descricao": "Um artilheiro carismático, cujos movimentos em campo irradiam energia e otimismo."
+  },
+  {
+    "nome": "Satoru Kamiya",
+    "posicao": "Zagueiro",
+    "elemento": "Sombra",
+    "time": "Guardiões Noturnos",
+    "hissatsu_notaveis": [
+      "Desaparecimento Total",
+      "Sombra Engolidora"
+    ],
+    "descricao": "Um zagueiro que joga com extrema inteligência tática, prevendo os movimentos do oponente."
+  },
+  {
+    "nome": "Reiji Homura",
+    "posicao": "Meio-campista",
+    "elemento": "Fogo",
+    "time": "Fênix Renascida",
+    "hissatsu_notaveis": [
+      "Asa da Fênix",
+      "Renovação Flamejante"
+    ],
+    "descricao": "Sua habilidade em campo o faz parecer renascer a cada jogada, sempre voltando mais forte."
+  },
+  {
+    "nome": "Nami Shizuka",
+    "posicao": "Lateral",
+    "elemento": "Água",
+    "time": "Correnteza Azul",
+    "hissatsu_notaveis": [
+      "Turbilhão Defensivo",
+      "Fluxo Constante"
+    ],
+    "descricao": "Excelente em cobrir a lateral, usando a fluidez da água para transições rápidas entre defesa e ataque."
+  },
+  {
+    "nome": "Jin Kazama",
+    "posicao": "Atacante",
+    "elemento": "Vento",
+    "time": "Furacões do Sul",
+    "hissatsu_notaveis": [
+      "Lâmina de Vácuo",
+      "Dança do Tufão"
+    ],
+    "descricao": "Um atacante que se move tão rápido que mal pode ser visto, usando o vácuo criado pela sua velocidade."
+  },
+  {
+    "nome": "Mio Tokiwa",
+    "posicao": "Goleiro",
+    "elemento": "Luz",
+    "time": "Templários Sagrados",
+    "hissatsu_notaveis": [
+      "Julgamento Final",
+      "Parede de Fé"
+    ],
+    "descricao": "Goleira que defende com uma convicção fervorosa, utilizando técnicas que parecem milagres."
+  },
+  {
+    "nome": "Gaku Hoshino",
+    "posicao": "Meio-campista",
+    "elemento": "Eletricidade",
+    "time": "Geradores de Energia",
+    "hissatsu_notaveis": [
+      "Transferência de Carga",
+      "Campo Magnético"
+    ],
+    "descricao": "Jogador focado em roubo de bola, usando pulsos elétricos para desestabilizar o adversário."
+  },
+  {
+    "nome": "Masaru Konishi",
+    "posicao": "Zagueiro",
+    "elemento": "Fogo",
+    "time": "Cinzas Resilientes",
+    "hissatsu_notaveis": [
+      "Escudo Carbonizado",
+      "Defesa Incandescente"
+    ],
+    "descricao": "Um defensor que usa o calor residual para reforçar sua defesa, mostrando grande resiliência após cada ataque."
+  }
 ]

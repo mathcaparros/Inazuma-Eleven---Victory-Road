@@ -1,6 +1,7 @@
 let cardContainer = document.querySelector(".card-container");
 let campoBusca = document.querySelector(".search-input"); // Usando a classe específica do input
 let botaoBusca = document.querySelector("#botao-busca");
+let filterButtons = document.querySelectorAll(".filter-btn");
 let dados = [];
 
 // Função para carregar os dados iniciais do JSON
@@ -8,7 +9,8 @@ async function carregarDados() {
     try {
         let resposta = await fetch("data.json");
         dados = await resposta.json();
-        renderizarCards(dados); // Renderiza todos os cards inicialmente
+        // Renderiza apenas os modos de jogo inicialmente
+        renderizarCards(dados.filter(dado => dado.subtitulo));
     } catch (error) {
         console.error("Falha ao buscar dados:", error);
         cardContainer.innerHTML = `<p class="no-results">Erro ao carregar conteúdo.</p>`;
@@ -34,13 +36,26 @@ function renderizarCards(dadosParaRenderizar) {
     }
 
     for (let dado of dadosParaRenderizar) {
-        let article = document.createElement("article");
-        article.innerHTML = `
-        <h2>${dado.nome}</h2>
-        <p><strong>${dado.subtitulo}</strong></p> <!-- Corrigido: usando 'subtitulo' que existe no JSON -->
-        <p>${dado.descricao.replace(/\n/g, '<br>')}</p> <!-- Mantém as quebras de linha -->
-        <a href="${dado.link}" target="_blank">Veja mais</a>
-        `
+        const article = document.createElement("article");
+        
+        // Verifica se é um "Modo de Jogo" (que tem subtitulo) ou um "Personagem"
+        if (dado.subtitulo) {
+            // Template para Modos de Jogo
+            article.innerHTML = `
+                <h2>${dado.nome}</h2>
+                <p><strong>${dado.subtitulo}</strong></p>
+                <p>${dado.descricao.replace(/\n/g, '<br>')}</p>
+                <a href="${dado.link}" target="_blank">Veja mais</a>
+            `;
+        } else {
+            // Template para Personagens
+            article.innerHTML = `
+                <h2>${dado.nome}</h2>
+                <p><strong>Posição:</strong> ${dado.posicao} | <strong>Elemento:</strong> ${dado.elemento}</p>
+                <p>${dado.descricao}</p>
+                <p><strong>Técnicas Notáveis:</strong> ${dado.hissatsu_notaveis.join(', ')}</p>
+            `;
+        }
         cardContainer.appendChild(article);
     }
 }
@@ -56,4 +71,22 @@ campoBusca.addEventListener("keydown", (event) => {
     if (event.key === "Enter") {
         iniciarBusca();
     }
+});
+
+// 4. Adiciona um "ouvinte" para cada botão de filtro do novo menu
+filterButtons.forEach(button => {
+    button.addEventListener("click", () => {
+        const filter = button.dataset.filter;
+        let dadosFiltrados;
+
+        if (filter === 'modos') {
+            dadosFiltrados = dados.filter(dado => dado.subtitulo); // Filtra por quem tem subtitulo (modos)
+        } else if (filter === 'personagens') {
+            dadosFiltrados = dados.filter(dado => !dado.subtitulo); // Filtra por quem não tem subtitulo (personagens)
+        } else {
+            // Filtra personagens pela posição (Atacante, Goleiro, etc.)
+            dadosFiltrados = dados.filter(dado => dado.posicao === filter);
+        }
+        renderizarCards(dadosFiltrados);
+    });
 });
