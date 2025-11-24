@@ -2,6 +2,8 @@
 
 Projeto web simples inspirado no jogo Inazuma Eleven, desenvolvido com HTML, CSS e JavaScript.
 
+Acesse o projeto aqui: https://mathcaparros.github.io/Inazuma-Eleven---Victory-Road/
+
 🚀 Funcionalidades
 
     Modos de jogo
@@ -36,3 +38,4 @@ Projeto web simples inspirado no jogo Inazuma Eleven, desenvolvido com HTML, CSS
 [Matheus Eduardo] - Projeto para portfólio
 
 *Inazuma Eleven é propriedade da Level-5*
+
